@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GifTastic</title>
 
-    <title>GifTastic</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- First include jquery js -->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/style.css" class="css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- First include jquery js -->
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css" class="css">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
 
-</head>
-
-<body>
-    <div class="container1">
-        <div class="row" id="title1">
-            <div class="col-sm-12" id="title2">
-                <h1> GifTastic </h1>
-            </div>
-        </div>
-    </div>
-    <div class="container2">
-        <div class="row">
-            <div class="col-sm-8">
-                <h3> Click a button to see a Giphy </h3>
-                <div id="comics-view"></div>
-                <div id="buttons-view"></div>
-            </div>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-3">
-                <form id="comic-form">
-                    <label for="comic-input">Add a Comic</label>
-                    <br>
-                    <input type="text" id="comic-input">
-                    <br>
-                    <button type="submit" class="btn btn-primary" id="add-comic">Add Comic</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="container3">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="gifs-appear-here">
+    <body>
+        <div class="container1">
+            <div class="row" id="title1">
+                <div class="col-sm-12" id="title2">
+                    <h1> GifTastic </h1>
                 </div>
             </div>
         </div>
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
-    <script type="text/javascript" src="assets/Javascript/giphy.js">
-    </script>
-</body>
+        <div class="container2">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3> Click a button to see a Giphy </h3>
+                    <div id="comics-view"></div>
+                    <div id="buttons-view"></div>
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-3">
+                    <form id="comic-form">
+                        <label for="comic-input">Add a Comic</label>
+                        <br>
+                        <input type="text" id="comic-input">
+                        <br>
+                        <button type="submit" class="btn btn-primary" id="add-comic">Add Comic</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="gifs-appear-here">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="assets/Javascript/giphy.js">
+        </script>
+    </body>
 
 </html>
